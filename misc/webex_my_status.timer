@@ -1,0 +1,10 @@
+[Unit]
+Description=Webex My Status Timer
+
+[Timer]
+OnCalendar=Mon..Fri *-*-* 09..20:*:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+

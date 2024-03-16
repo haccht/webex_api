@@ -1,0 +1,12 @@
+[Unit]
+Description=Webex My Status by API
+
+[Service]
+Type=oneshot
+User=haccht
+WorkingDirectory=/home/haccht/webex_api
+ExecStart=/home/haccht/webex_api/.venv/bin/python /home/haccht/webex_api/my_status.py
+
+[Install]
+WantedBy=multi-user.target
+
