@@ -37,7 +37,8 @@ class UnicornHatHD:
 
 if __name__ == "__main__":
     hat = UnicornHatHD()
-    hat.draw_emoji('microphone')
+    #hat.draw_emoji('microphone')
+    hat.draw_emoji('error')
 
     time.sleep(3)
     hat.clear()
